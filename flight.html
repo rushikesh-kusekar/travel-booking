@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html >
+<head>
+   
+    <title>flight booking</title>
+</head>
+<body>
+    <img src="./IMAGES/green flight.jpg" height="400px" width="1250px"/>
+    <h1>Book Your Flight</h1>
+    <form>
+        <label for="inputname"><b>Enter your full name :</b></label>
+        <input type="text" id="inputname" placeholder="ex.johan doe"><br><br>
+
+        <label for="inputdate"><b>Enter your date of birth :</b></label>
+        <input type="date" id="inputdate"><br><br>
+
+        <label for="gender"><b>Select your gender :</b></label>
+        <select id="gender">
+
+             <option>male</option>
+             <option>female</option>
+             <option>other</option>
+             
+        </select><br><br>
+
+        <label for="inputmobileno"><b>Enter your phone no :</b></label>
+        <input type="number" id="inputmobileno" placeholder="ex.7645890321"><br><br>
+
+        <label for="inputstreet"><b>Enter your address :</b></label><br><br>
+        
+        <label for="inputstreet">street address :</label>
+        <input type="text" placeholder="ex.house no.,road,near" id="inputstreet"/>&nbsp;&nbsp;&nbsp;
+       
+       <label for="inputcity">city :</label>
+        <input type="text" placeholder="ex.city" id="inputcity" /><br><br>
+
+        <label for="inputstate">state</label>
+        <input list="state" id="inputstate" placeholder="ex.Maharashtra"/>
+        <datalist id="state">
+
+            <option>Andhra Pradesh</option>              
+            <option> Arunachal Pradesh</option>        
+            <option>Assam</option>
+            <option>Bihar</option>
+            <option>Chhattisgarh</option>
+            <option> Goa</option>
+            <option> Gujarat</option>
+            <option>Haryana</option>
+            <option>Himachal Pradesh</option>
+            <option>Jharkhand</option>
+            <option>Karnataka</option>
+            <option>Kerala</option>
+            <option>Madhya Pradesh</option>
+            <option>Maharashtra</option>
+            <option> Manipur</option>
+            <option>Meghalaya</option>
+            <option>Mizoram</option>
+            <option>Nagaland</option>
+            <option>Odisha</option>
+            <option>Punjab</option>
+            <option>Rajasthan</option>
+            <option>Sikkim</option>
+            <option>Tamil Nadu</option>
+            <option>Telangana</option>
+            <option>Tripura</option>
+            <option>Uttar Pradesh</option>
+            <option> Uttarakhand</option>
+            <option> West Bengal</option>
+                
+               
+        </datalist>&nbsp;&nbsp;&nbsp;
+
+        
+        <label for="inputzipcode">zip code :</label>
+        <input type="number" placeholder="ex.000 111" id="inputzipcode" /><br><br>
+
+        <label for="inputfromcity"><b>From city :</b></label>
+        <input type="text" placeholder="ex.mumbai airport" id="inputfromcity"/>&nbsp;&nbsp;&nbsp;
+
+        <label for="inputtocity"><b>To city :</b></label>
+        <input type="text" placeholder="ex.dubai" id="inputtocity"/><br><br>
+
+        <label for="inputdeparturedate"><b>Departure date:</b></label>
+        <input type="date" id="inputdeparturedate"/>&nbsp;&nbsp;&nbsp;
+
+        <label for="inputreturndate"><b>Return date:</b></label>
+        <input type="date" id="inputreturndate"/><br><br>
+
+        <span><b>Select class :</b></span><br><br>
+        <input type="radio" id="inputradio" name="radio"/>
+        <label for="inputradio">first class</label><br>
+
+        <input type="radio" id="inputradio1" name="radio"/>
+        <label for="inputradio1">business class</label><br>
+
+        <input type="radio" id="inputradio2" name="radio"/>
+        <label for="inputradio2">economy class</label><br><br><br>
+
+       <button>Book now</button>
+
+    </form>
+</body>
+</html>
